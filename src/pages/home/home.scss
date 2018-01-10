@@ -1,0 +1,391 @@
+page-home {
+    ion-title{
+        color: #fff;
+    }
+    ion-navbar {
+        border: none;
+        height: 20px;
+    }
+    .body
+    {
+        
+        margin: 0;
+        padding:0;
+      
+        background-attachment: fixed;
+        overflow-X:hidden;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background: #000333;
+        height: 100%;
+    }
+    
+    .background{
+        height: 100%;
+        width: 100%;
+        position: absolute;   
+        top:0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+    
+    .background img{
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        opacity: 0.1;
+    }
+    
+    .headerSign{
+        width: 100%;
+        height: 260px;
+        margin-top: 16px;
+        position: relative;    
+        z-index: 2;
+    }
+    .headerSign .logo{
+        width: 100%;
+        padding-top:10px;
+        text-align: center;
+    }
+    .headerSign .logo img{
+        width: 100px;
+        height:100px;
+    }
+    
+    .headerSign .Textlogo{
+        width: 100%;
+        text-align: center;
+        font-style: normal;
+        color:#fff;
+        margin-top: 1px;
+ 
+    }
+    
+    .headerSign .Textlogo span b{
+        width: 100%;
+        text-align: center;
+        font-style: normal;
+        color:#0ed3f6;
+        margin-top: 6px;
+        font-style:normal;
+    }
+    
+    .headerSign .TextSlogan{
+        width: 60%;
+        color: #fff;
+        text-align: center;
+        margin: auto;
+        margin-top: 32px;
+    }
+
+    .formConnect{
+        margin-top:12px;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .formConnect .input{
+        text-align: center;
+        width: 82%;
+        margin:auto;
+    }
+    
+    .formConnect .input input{
+        text-align: left;
+        height: 28px;
+        padding: 2px;
+        padding-left:45px;
+        width: 80%;
+        border: none;
+        border-radius: 5px;
+        background: #ffffff33;
+        opacity: 0.8;
+        font-size: 14px;
+   
+        color:#fff;
+    
+    }
+    
+    .croche{
+        width:64%;
+        margin:auto;
+        color:#fff;
+        font-size:15px;
+    
+    }
+    
+    .regitForget{
+    
+        width:74%;
+        margin:auto;
+        margin-top:32px;
+        color:#fff;
+        font-size:14px;
+        
+    }
+    
+    .btn,.btnFace{
+        width:74%;
+        height:auto;
+        margin:auto;
+        margin-top:32px;
+        color:#fff;
+        font-size:14px;
+      
+        text-align:center;
+    }
+    .btn input{
+        width:70%;
+        height:40px;
+        border:1px;
+        border-radius:30px;
+        text-align:center;
+        background:#06bebd;
+        color:#fff;
+    }
+    .btnFace input{
+        width:70%;
+        height:40px;
+        border:1px;
+        border-radius:30px;
+        text-align:center;
+        background:#10cef4;
+        color:#fff;
+    }
+    
+    .spaceLeft{ 
+        margin-left:40px;
+        color:#f3f2f5e6;
+    }
+    .spaceRight{ 
+        margin-left:20px;
+        margin-right:40px;
+        color:#f3f2f5d6;
+    }
+    .footerPage
+    {
+        width:98%;
+        height:40px;
+        border:1px;
+        position:absolute;
+        bottom:0;
+        padding:2%;
+        font-size:14px;
+        text-align:center;
+        background:#000100;
+        color:#fff;
+        padding-bottom:46px;
+    }
+    .footerPage .text
+    {
+        width:70%;
+        margin:auto;
+    }
+    
+    .footerPage .text colorLogo
+    {     
+        display:none;
+    }
+    
+    .colorLogo{
+        color:#0ed3f6;
+    }
+    .palm{
+        position:absolute;
+        background: #10cef4;
+        text-align: left;
+        height: 30px;
+        width: 30px;
+        border-radius:30px;
+        margin-right:6px;
+        border: none;
+        text-align: center;
+        
+    }
+    .palm img{
+        margin-top:5px;
+        margin-left:2px;
+        width: 20px;
+        height:20px;
+    }
+    
+    label{
+        color:#fff;
+        margin-left:-30%;
+        position:relative;
+        font-size:14px;
+    }
+    
+    .smallText{
+        font-size:17px;
+    }
+    .bigText{
+        font-size: 2em;
+    }
+    .formConnect .message{
+    
+        width:60%;
+        margin:auto;
+        color:#fff;
+        text-align:center;
+        font-size:16px;
+    }
+    .bar{
+        background:linear-gradient(to right,#0ed3f6,#7a29a6);
+        width: 100%;
+        height: 4px;
+        color: #fff;
+
+    }
+
+    .barContenu{
+        width: 100%;
+        height: 70px;
+        background:linear-gradient(to right,#0ed3f6,#7a29a6);
+        padding-bottom: 86px;
+    }
+    
+
+    .barContenu .textHeader{
+        position: relative;
+        top: 26px;
+        color: #fff;
+        font-size: 1.4em;
+        margin-left: 60px;
+        font-style: bold;
+    }
+
+    .barContenu .textHeader b{
+       text-align: center;
+    }
+
+    .barContenu .imgBack img{
+        width: 28px;
+        height: 28px;
+    }
+    
+
+  .barContenu .imgUserPhoto {
+        position: relative;
+        top: 16px;
+        left: 16px;
+        widows: 50px;
+        height: 50px;
+        border-radius:50px; 
+        overflow: hidden;   
+    }
+
+    .barContenu .imgUserPhoto img {
+        widows: 50px;
+        height: 50px;
+        border-radius:60px;
+        border: 2px solid #fff;
+    }   
+
+  .barContenu .imgSearch {
+        position: relative;
+        top:32px;
+        float: right;
+        right: 8px;
+        widows: 32px;
+        height: 32px;
+    }
+
+    .barContenu .imgSearch img {
+        widows: 30px;
+        height: 30px;  
+    }
+
+    .enterComment{
+       margin-top: 16px; 
+       margin-bottom: 8px; 
+       position: relative;
+       z-index: 2;   
+    }
+    .enterComment input{
+       width: 90%;
+       background: none;
+       border: none;
+       padding: 10px;
+       border-bottom:1px solid rgb(204, 196, 196); 
+       color: #fff;
+    }
+    ::placeholder{
+        color: #fff;
+        opacity: 1;
+    }
+    .contentMessage{
+        position: relative;
+        z-index:2;
+        padding:16px;
+    }
+
+    .contentMessage .imgUserPhoto{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        z-index:2;
+        overflow: hidden; 
+    }
+
+    .contentMessage .imgUserPhoto img{
+        width: 40px;
+        height: 40px;
+        border-radius:40px;
+        border: 2px solid #fff;
+    }
+
+    .contentMessage .userName{
+        width: auto;
+        height: 20px;
+        color: #eee;
+        font-size: 14px;
+        margin-top: 4px;
+        position: absolute;
+        margin-left: 8px;
+    }
+
+    .contentMessage .userMessge{
+        width: auto;
+        height: 20px;
+        color: #fff;
+        font-size: 10px;
+        margin-top: 24px;
+        position: absolute;
+        margin-left: 8px;
+    }
+
+    .contentMessage .etimo
+    {
+        width: 30px;
+        height: 30px;
+        color: #fff;
+        font-size: 12px;
+        margin-top: 22px;
+        position: absolute;
+        right:4px;
+        padding-left:8px;
+    }
+
+    .contentMessage .userFeel{
+        font-size: 10px;
+        position: absolute;
+        right: 28px;
+        top: 40px;
+        color: rgb(14, 66, 4);
+    }
+
+    .contentMessage .etimo img
+    {
+        width: 16px;
+        height: 16px;
+    }
+    
+}

@@ -1,0 +1,245 @@
+page-passresetmessage {
+    ion-navbar,ion-tille{
+        color: #fff;
+        border: none;
+    }
+
+    ion-title{       
+        color: #fff;
+    }
+    .body
+    {
+        
+        margin: 0;
+        padding:0;
+        font-family: Tittilium;
+        background-attachment: fixed;
+        overflow-X:hidden;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background: #000333;
+        height: 100%;
+    }
+    
+    .background{
+        height: 100%;
+        width: 100%;
+        position: absolute;   
+        top:0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+    
+    .background img{
+        width: auto;
+        height: 100%;
+        overflow: hidden;
+        position: absolute;
+        opacity: 0.1;
+    }
+    
+    .headerSign{
+        width: 100%;
+        height: 220px;
+        margin-top: 60px;
+        position: relative;    
+        z-index: 2;
+    }
+    .headerSign .logo{
+        width: 100%;
+        padding-top:16px;
+        text-align: center;
+    }
+    .headerSign .logo img{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .headerSign .Textlogo{
+        width: 100%;
+        text-align: center;
+        font-style: normal;
+        color:#fff;
+        margin-top: 1px;
+        font-family:cursive;
+        
+    }
+    
+    .headerSign .Textlogo span b{
+        width: 100%;
+        text-align: center;
+        font-style: normal;
+        color:#0ed3f6;
+        margin-top: 6px;
+        font-style:normal;
+    }
+    
+    .headerSign .TextSlogan{
+        width: 60%;
+        color: #fff;
+        text-align: center;
+        margin: auto;
+        margin-top: 32px;
+        font-family:cursive;
+    
+    }
+    
+    .formConnect{
+        margin-top:32px;
+        width: 100%;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .formConnect .input{
+        text-align: center;
+        width: 82%;
+        margin:auto;
+    }
+    
+    .formConnect .input input{
+        text-align: left;
+        height: 28px;
+        padding: 2px;
+        padding-left:45px;
+        width: 80%;
+        border: none;
+        border-radius: 5px;
+        background: #ffffff33;
+        opacity: 0.8;
+        font-size: 14px;
+        font-style: italic;
+        color:#fff;
+    
+    }
+    
+    .croche{
+        width:66%;
+        margin:auto;
+        color:#fff;
+        font-size:15px;
+        font-family:serif;
+        font-style:italic;
+    }
+    
+    .regitForget{
+    
+        width:74%;
+        margin:auto;
+        margin-top:32px;
+        color:#fff;
+        font-size:14px;
+        font-family:-webkit-pictograph;
+    }
+    
+    .btn,.btnFace{
+        width:74%;
+        height:auto;
+        margin:auto;
+        margin-top:32px;
+        color:#fff;
+        font-size:14px;
+        font-family:-webkit-pictograph;
+        text-align:center;
+    }
+    .btn input{
+        width:70%;
+        height:40px;
+        border:1px;
+        border-radius:30px;
+        text-align:center;
+        background:#06bebd;
+        color:#fff;
+    }
+    .btnFace input{
+        width:70%;
+        height:40px;
+        border:1px;
+        border-radius:30px;
+        text-align:center;
+        background:#457dcd;
+        color:#fff;
+    }
+    
+    .spaceLeft{ 
+        margin-left:40px;
+        color:#f3f2f5e6;
+    }
+    .spaceRight{ 
+        margin-left:20px;
+        margin-right:40px;
+        color:#f3f2f5d6;
+    }
+    .footerPage
+    {
+        width:98%;
+        height:40px;
+        border:1px;
+        position:absolute;
+        bottom:0;
+        padding:2%;
+        font-size:14px;
+        text-align:center;
+        background:#000100;
+        color:#fff;
+        padding-bottom:46px;
+    }
+    .footerPage .text
+    {
+        width:70%;
+        margin:auto;
+    }
+    
+    .footerPage .text colorLogo
+    {     
+        display:none;
+    }
+    
+    .colorLogo{
+        color:#0ed3f6;
+    }
+    .palm{
+        position:absolute;
+        text-align: left;
+        height: 28px;
+        padding: 2px;
+        margin-left:6px;
+        border: none;
+        opacity: 0.8;
+    }
+    .palm img{
+        margin-top:2px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    label{
+        color:#fff;
+        margin-left:-10%;
+        position:relative;
+        font-family:sans-serif;
+        font-size:14px;
+    }
+    
+    .smallText{
+        font-size:17px;
+    }
+    .bigText{
+        font-size: 2em;
+    }
+    .formConnect .message{
+    
+        width:60%;
+        margin:auto;
+        color:#fff;
+        text-align:center;
+        font-family:sans-serif;
+        font-style:italic;
+        font-size:16px;
+    }
+
+}

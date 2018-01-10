@@ -1,0 +1,48 @@
+
+<!-- Hide the nav bar-->
+  <ion-header>
+
+    <ion-navbar color="primary">
+      <ion-title> </ion-title>
+    </ion-navbar>
+
+  </ion-header>
+
+
+<ion-content>
+    <div class="body">
+        <div class="background">
+            <img src="assets/imgs/phoo.png">
+          </div>
+          <div class="headerSign">
+              <div class="logo">
+                <img src="assets/imgs/icon.png">
+              </div>
+              <div class="Textlogo smallText">
+                <span>
+                Password reset
+                </span>
+      
+              </div>
+              
+          </div>
+          <div class="formConnect">
+            <div class="input">
+              <label for="email"> Enter your account e-mail address </label>
+              <p> 
+                <span class="img palm">
+                  <img src="assets/imgs/mail.png">
+                </span>
+      
+                <span>
+                
+                  <input type="text" name="email"placeholder="E-mail"/>
+                </span> 
+              </p>
+            </div>
+            <div class="btn" (tap)="goMessage()">
+              <input type="submit" value="Reset password">
+            </div>
+          </div>
+    </div>
+</ion-content>

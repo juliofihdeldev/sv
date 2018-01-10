@@ -1,0 +1,83 @@
+<!--
+  Generated template for the SignPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!-- Hide the nav bar
+  <ion-header>
+
+    <ion-navbar>
+      <ion-title>sign</ion-title>
+    </ion-navbar>
+
+  </ion-header>
+-->
+
+<ion-content>
+    <div class="body">
+      <div class="background">
+        <img src="assets/imgs/phoo.png"/>
+      </div>
+      <div class="headerSign">
+          <div class="logo">
+            <img src="assets/imgs/icon.png">
+          </div>
+          <div class="Textlogo bigText ">
+            <span>
+             Switf</span><span><b>Vibe</b>
+            </span>
+  
+          </div>
+          <div class="TextSlogan">
+            <p> 
+              Register today and start enjoying
+              the <span class="colorLogo">SwiftVibe</span> experience!
+            </p>
+          </div>
+      </div>
+      <div class="formConnect">
+        <div class="input">
+          <p> 
+            <span class="img palm">
+              <img src="assets/imgs/mail.png">
+            </span>
+            <span>
+              <input type="text" placeholder="E-mail"/>
+            </span> 
+          </p>
+  
+          <p> 
+            <span class="img palm">
+              <img src="assets/imgs/secure.png">
+            </span>
+            <span>
+              <input type="text" placeholder="Password"/>
+            </span> 
+          </p>
+        </div>
+    
+        <div class="croche">
+          <input type="radio">
+          Sign-in automatically
+        </div>
+  
+        <div class="regitForget">
+          <span class="spaceRight" (tap)="goRegister()">Register</span> | 
+          <span class="spaceLeft" (tap)="forgetPassword()"> Forgot password?</span>
+        </div>
+  
+        <div class="btn">
+          <input type="submit"  value="LOGIN">
+        </div>
+        <div class="btnFace">
+          <input type="button"  value="LOGIN WITH FACEBOOK">
+        </div>
+      </div>
+      <div class="footerPage">
+        <div class="text">
+          By signing in to SwiftVibe, you agree to our <span class="colorLogo">Terms & Conditons</span> & <span class="colorLogo">Privacy Policy</span>
+        </div>
+      </div>
+    </div>
+</ion-content>
