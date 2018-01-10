@@ -215,7 +215,23 @@ page-home {
         width: 20px;
         height:20px;
     }
-    
+    .imgMail{
+        position:absolute;
+        text-align: left;
+        height: 30px;
+        width: 30px;
+        border-radius:30px;
+        margin-right:6px;
+        border: none;
+        text-align: center;
+    }
+    .imgMail img{
+        margin-top:5px;
+        margin-left:2px;
+        width: 20px;
+        height:20px;
+    }
+
     label{
         color:#fff;
         margin-left:-30%;
@@ -353,7 +369,7 @@ page-home {
     }
 
     .contentMessage .userMessge{
-        width: auto;
+        width: 60%;
         height: 20px;
         color: #fff;
         font-size: 10px;
@@ -387,5 +403,124 @@ page-home {
         width: 16px;
         height: 16px;
     }
+    .fireAndMore{
+        position: relative;
+        color: #fff;
+        font-size: 12px;
+        float: right;
+        right: 10px;
+        margin-top:-18px;
+    }
+    .fireAndMore .table{
+        width: 100%;
+    }
+    .fireAndMore img{
+        width: 15px;
+        font-size: 33px;
+        padding:2px;
+    }
+    .fireAndMore .etimo :nth-child(3n+0){
+        margin-right: 20px;
+    }
+
+    .commentInput{
+        padding-top:16px;
+        padding-left:8px;
+        padding-bottom: 12px;
+        width: 100%;
+
+    }
+    .commentInput input{
+        
+        width: 60%;
+        text-align: left;
+        height: 28px;
+        padding: 2px;
+        padding-left:5px;
+        border: none;
+        border-radius: 5px;
+        background: #ffffff33;
+        opacity: 0.8;
+        font-size: 14px;
+        color:#fff;
+    }
+    .allComments{
+        font-size: 12px;
+        color: #fff;
+        position: relative;
+        right: 8px;
+        margin-top: 6px;
+       float: right;
+    }
+
+    .contentMessageComment{
+        background: #000100;
+        padding-bottom: 12px;
+        margin-bottom: 12px;
+        border-top:1px solid #ccc; 
+        border-bottom:1px solid #ccc; 
+    }
+    .contentMessageComment .fireAndMore{
+        background: #000100;
+        position: relative;
+        margin-top: -40px;
+
+    }
+    .contentMessageComment .imgUserPhoto{
+        width:40px;
+        height: 40px;
+    }
     
+    .contentMessageComment .imgUserPhoto img{
+        width:30px;
+        height:30px;
+    }
+    .eventShow{
+        padding: 0;
+        position: absolute;
+    }
+    .eventShow .contentMessage{
+        height: 200px;
+    }
+    .eventShow .contentMessage{
+        float: left;
+        z-index: 0;
+        left: 0;
+        right: 0;
+    }
+    .eventShow  .images_events{
+        margin-left: -16px;
+        margin-right: -16px;
+        z-index: 0;
+        margin-top: -50px;
+        opacity: 0.3;
+    }    
+    
+    .eventShow  .text{
+
+        z-index: 0;
+        margin-top: -160px;
+        position: relative;
+        color: #fff
+    }    
+    .eventShow .userFeel{
+      font-size: 0.8em;
+      color: #fff;
+      right: 16px;
+      margin-top: -20px;
+      opacity: 1;
+       font-style: bold;
+    }    
+    .eventShow .etimo{
+        font-size: 2em;
+        color: #fff;
+        width: 50px;
+        font-style: bold;
+        opacity: 1;
+      }  
+      .eventShow .fireAndMore{
+          float: left;
+          margin-top: 12px;
+      }
+
 }

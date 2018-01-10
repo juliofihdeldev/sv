@@ -9,8 +9,6 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  */
 // new import
 import { RegisterPage } from '../register/register';
-import { Nav } from 'ionic-angular/components/nav/nav';
-
 @IonicPage()
 @Component({
   selector: 'page-sign',
