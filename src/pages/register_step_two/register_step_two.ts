@@ -14,7 +14,7 @@ export class RegisterStepTwoPage {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad RegisterPage');
-    this.goHome();
+    // this.goHome();
   }
   
   goHome(){

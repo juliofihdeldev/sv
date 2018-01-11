@@ -459,6 +459,7 @@ page-home {
         margin-bottom: 12px;
         border-top:1px solid #ccc; 
         border-bottom:1px solid #ccc; 
+
     }
     .contentMessageComment .fireAndMore{
         background: #000100;
@@ -475,12 +476,17 @@ page-home {
         width:30px;
         height:30px;
     }
+
     .eventShow{
         padding: 0;
         position: absolute;
+        height: auto;
     }
     .eventShow .contentMessage{
         height: 200px;
+      
+        padding: 0;
+        padding-top:16px; 
     }
     .eventShow .contentMessage{
         float: left;
@@ -488,6 +494,11 @@ page-home {
         left: 0;
         right: 0;
     }
+    .eventShow .contentMessage .imgUserPhoto{
+        padding-left: 16px;
+        padding-top:16px; 
+    }
+    
     .eventShow  .images_events{
         margin-left: -16px;
         margin-right: -16px;
@@ -496,13 +507,15 @@ page-home {
         opacity: 0.3;
     }    
     
-    .eventShow  .text{
+    .eventShow .text{
 
         z-index: 0;
         margin-top: -160px;
         position: relative;
-        color: #fff
-    }    
+        color: #fff;
+        padding-left:16px;
+    }  
+      
     .eventShow .userFeel{
       font-size: 0.8em;
       color: #fff;
@@ -511,6 +524,10 @@ page-home {
       opacity: 1;
        font-style: bold;
     }    
+    .eventShow .userMessge{
+        margin-top:18px;
+      }    
+    
     .eventShow .etimo{
         font-size: 2em;
         color: #fff;
@@ -521,6 +538,27 @@ page-home {
       .eventShow .fireAndMore{
           float: left;
           margin-top: 12px;
+          margin-left: 22px;
       }
+      .OptionsOfEvent{
+        background: #000;
+        position: relative;
+        margin-top: 40px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 0;
+           
+      }
+      .OptionsOfEvent table{
+        width: 100%;
 
+      }
+      .OptionsOfEvent table td{
+        text-align: center;
+      }
+      .OptionsOfEvent table td img{
+        width: 25px;
+        text-align: center;
+      }
 }

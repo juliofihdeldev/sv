@@ -14,7 +14,7 @@ export class RegisterPage {
   }
 
   ionViewDidLoad() {
-    this.stepTwo();
+    //this.stepTwo();
   }
 
   stepTwo(){
